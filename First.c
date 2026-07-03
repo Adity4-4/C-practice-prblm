@@ -228,3 +228,76 @@ int main(){
     printf("\n sum is %.2f",s);
     return 0;
 }
+
+#include <stdio.h>
+
+int main(){
+    float i=-1,s=0,t=0;
+
+    while(i<15){
+        i=i+2;
+        t=1/i;
+        s=s+t;
+    }
+    printf("\n %.2f",s);
+}
+
+#include <stdio.h>
+
+int main(){
+    float i=0,t=1,s=0,n=0;
+
+    while(i<9&&t<10){
+        i=i+1;
+        t=t+1;
+        n=i/t;
+        printf("\n %2f ",i);
+        printf(" %2f ",t);
+        s=s+n;
+       }
+       printf("The sum is %2f",s);
+}
+
+#include <stdio.h>
+
+int main(){
+    int i=0,s=0,sum=0;
+    while(i<5){
+        i=i+1;
+        s=i*i;
+        printf("\n %d",s);
+        sum=sum+s;
+    }
+    printf("\n %d",sum);
+}
+
+#include <stdio.h>
+
+int main(){
+    float i=-1,t=0,n=0, s=0;
+
+    while(i<11&&t<12){
+        i=i+2;
+        t=t+2;
+        n=i/t;
+        printf("\n %.2f",i);
+        printf(" %.2f",t);
+        s=s+n;
+
+    }
+    printf("\n %.2f",s);
+}
+
+
+#include <stdio.h>
+
+int main(){
+    int i=0,s=0;
+
+    while(i<28){
+        i=i+4;
+        printf("\n %d",i);
+        s=s+i;
+    }
+    printf("\n %d",s-10);
+}
