@@ -34,7 +34,9 @@ int main() {
         scanf("%d", &i);
 
        
-
+          if(i==7){
+        break;
+    }    
         printf("Enter Price: ");
         scanf("%f", &price);
 
@@ -61,7 +63,10 @@ int main() {
             printf("Invalid Group Code\n");
             continue;
         
-    }
+    
+   
+}
+   
         netPrice = price - discount;
 
         printf("Discount = %.2f\n", discount);
