@@ -1,3 +1,6 @@
+
+//Smallets out of 3
+
 #include <stdio.h>
 
 int main() {
@@ -24,6 +27,8 @@ int main() {
     return 0;
 }
 
+//to caluclate and print simple interest.input prin.amount and duration.Rate of interset depend on prin 
+
 #include <stdio.h>
 int main(){
     int p,d,si,r;
@@ -41,6 +46,8 @@ int main(){
       printf("Simple Interest = %d\n", si);
     return 0;
 }
+
+//Calculate volume of 6 boxes
 
 #include <stdio.h>
 
@@ -60,6 +67,7 @@ int main(){
     return 0;
 }
 
+//Calculate simple interest for 7 Customers
 
 #include <stdio.h>
 
@@ -77,6 +85,9 @@ int main(){
     }
     return 0;
 }
+
+//Convert 10 temperature in degree centi to degree far.
+
 #include <stdio.h>
 
 int main(){
@@ -97,6 +108,8 @@ int main(){
 }
 
 
+//calculate average of 3 numbers
+
 #include <stdio.h>
 
 int main(){
@@ -113,6 +126,8 @@ int main(){
     return 0;
 }
 
+
+//calculate the perimeter and area of rec
 
 #include <stdio.h>
 
@@ -135,7 +150,7 @@ int main(){
     }
     return 0;
 }
-
+//to generate and print 1st 10 even nos. 
 #include <stdio.h>
 
 int main(){
@@ -148,7 +163,7 @@ int main(){
     return 0;
 
 }
-
+// to generate and print 1st 15 odd nos.
 
 #include <stdio.h>
 
@@ -161,6 +176,8 @@ int main(){
     }
     return 0;
 }
+
+// to generate and print even nos from 10 to 30 
 
 #include <stdio.h>
 
@@ -175,6 +192,8 @@ int main(){
     return 0;
 }
 
+//to generate and print given nos 1,5,9,13
+
 #include <stdio.h>
 
 int main(){
@@ -187,6 +206,8 @@ int main(){
     return 0;
 }
 
+
+//to generate and print give nos. 3,9,15,21,27
 
 #include <stdio.h>
 
@@ -201,7 +222,7 @@ int main(){
     return 0;
 }
 
-
+//to generate and print give nos 2,7,,12,....,37
 #include <stdio.h>
 
 int main(){
@@ -301,6 +322,8 @@ int main(){
     }
     printf("\n %d",s-10);
 }
+
+//1+11+111+1111+11111
 
 #include <stdio.h>
 

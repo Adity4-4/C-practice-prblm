@@ -1,25 +1,25 @@
-// #include <stdio.h>
-// int main(){
-//     int n,c=0,s=0;
-//     while(1){
+#include <stdio.h>
+int main(){
+    int n,c=0,s=0;
+    while(1){
         
-//         printf("Enter the num");
-//         scanf("%d",&n);
-//         c=c+1;
-//        if (n % 2 == 1) {
-//            continue;
+        printf("Enter the num");
+        scanf("%d",&n);
+        c=c+1;
+       if (n % 2 == 1) {
+           continue;
             
 
           
-//         } 
+        } 
         
-//     if (c == 5) {
-//                 break;
-//             }
-//     }
-//     printf("Sum is %d \n",s);
-//     return 0;    
-// }
+    if (c == 5) {
+                break;
+            }
+    }
+    printf("Sum is %d \n",s);
+    return 0;    
+}
 
 
 
